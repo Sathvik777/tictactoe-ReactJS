@@ -1,4 +1,4 @@
-# tictactoe-ReactJS
+# Portfolio-ReactJS
 pretty self-explanatory repository name I guess ;)
 
 
