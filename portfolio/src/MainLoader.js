@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './ContainerHolder.css';
+import './MainLoader.css';
 
-class ContainerHolder  extends Component {
+class MainLoader  extends Component {
   render() {
     return (
       <div className="fill-backround">
@@ -13,6 +13,6 @@ class ContainerHolder  extends Component {
   }
 }
 
-export default ContainerHolder;
+export default MainLoader;
 
 
