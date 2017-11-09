@@ -3,8 +3,7 @@ pretty self-explanatory repository name I guess ;)
 
 
 ## Modules/ Frame-works
-* Angular
-* Angular Material
+* ReactJS
 
 ## Algorithm (AI)
 * Minimax Algorithm
