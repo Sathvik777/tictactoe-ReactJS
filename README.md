@@ -1,4 +1,4 @@
-# tictactoe-AngularJS
+# tictactoe-ReactJS
 pretty self-explanatory repository name I guess ;)
 
 
