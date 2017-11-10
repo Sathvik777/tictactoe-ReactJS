@@ -13,7 +13,7 @@ div.fill-backround{
  width: 100%;
  animation-name: fadeLoad;
  animation-duration: 1s;
- animation-timing-function: ease-in;
+ animation-timing-function: linear;
 
  -moz-box-shadow: 1px 0px 3px rgba(0,0,0,.5);
  -webkit-box-shadow: 1px 0px 3px rgba(0,0,0,.5);
@@ -104,9 +104,9 @@ div.divider-bars{
     opacity: 0;
     transform: translate3d(0, -100%, 0);
   }
-  60% {
-    opacity: 0.4;
-    transform: translate3d(0, -40%, 0);
+  40% {
+    opacity: 0.6;
+    transform: translate3d(0, -60%, 0);
   }
 
   to {

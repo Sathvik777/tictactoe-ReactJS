@@ -15,8 +15,9 @@
   height: 300px;
   width: 45%;
   animation-name: fadeLoad;
+  color: #00151d;
   animation-duration: 1s;
-  animation-timing-function: ease-in;
+  animation-timing-function: linear;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -39,29 +40,4 @@
   background: linear-gradient(120deg, #89bdd3 , #9ad3de );  /* For browsers that do not support gradients */
   
   
-}
-
-
-
-@keyframes fadeLoad {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-
-  60% {
-    opacity: 0.4;
-    transform: translate3d(0, -40%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.title-holder{
-  color: #ffffff;
-  font: outline;
-  padding-top: 10px;
 }
