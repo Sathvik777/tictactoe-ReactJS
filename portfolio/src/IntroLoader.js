@@ -1,7 +1,13 @@
 import React from 'react';
 import './css/IntroLoader.css';
 import CreateClass from 'create-react-class';
-var story = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in.";
+var story = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida"+
+" massa odio, nec auctor risus posuere in."+"Lorem ipsum dolor sit amet, consectetur adipiscing elit."+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida"+
+" massa odio, nec auctor risus posuere in."+"Lorem ipsum dolor sit amet, consectetur adipiscing elit."+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida"+
+" massa odio, nec auctor risus posuere in.";
 var MyStoryClass = CreateClass({
   render: function(){
     return(
@@ -11,9 +17,10 @@ var MyStoryClass = CreateClass({
     </div>
     );
   }
-
-
 });
+
+
+
 
 
 class IntroLoader extends  React.Component {
