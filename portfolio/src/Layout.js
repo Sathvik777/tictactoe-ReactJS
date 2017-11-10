@@ -9,21 +9,21 @@ import ConatctLoader from './SocialLoader';
 class Layout  extends Component {
   render() {
     return (
-      <div class="container" >
+      <div className="container" >
         <div id="main-display">
-        <MainLoader/>
+         <MainLoader/>
         </div>
         <div id="intro">
-        <IntroLoader/>
+         <IntroLoader/>
         </div>
         <div id="experince">
-        <ExperinceLoader/>
+         <ExperinceLoader/>
         </div>
         <div id="social">
-        <SocialLoader/>
+         <SocialLoader/>
         </div>
         <div id= "contact">
-        <ConatctLoader/>
+         <ConatctLoader/>
         </div>
       </div>
     );

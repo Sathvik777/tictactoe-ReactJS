@@ -11,8 +11,7 @@ div.picture-holder{
 height: 250px;
 width: 250px;
 position: absolute;
-left: 20%;
-top: 25%;
+margin: auto;
 border-radius: 50%;
 z-index: -1;
 border-style: solid;
