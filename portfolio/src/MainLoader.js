@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './MainLoader.css';
+import './css/MainLoader.css';
 
 class MainLoader  extends Component {
   render() {

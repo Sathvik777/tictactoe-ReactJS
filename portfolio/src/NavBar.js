@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './NavBar.css';
+import './css/NavBar.css';
 
 class NavBar extends Component {
   render() {
     return (
-      <div >
+      <div className ="navbar-container">
       <nav className="navbar navbar-dark bg-faded">
       <ul className="main-nav">
       <li><a href="#">Home</a></li>
