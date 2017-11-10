@@ -8,6 +8,9 @@ class MainLoader  extends Component {
         <div className ="picture-holder">
           <img className="profile-image" src={require('./assets/sathvik.jpg')} />
         </div>
+        <div className ="message">
+          <h4 className="head-message shadow">Hire a Hero</h4>
+        </div>
       </div>
     );
   }

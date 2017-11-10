@@ -1,11 +1,19 @@
 div.fill-backround{
- background-color: rgba(185, 144, 82, 0.64);
+  opacity: 0.9;
+  background: #9ad3de; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(150deg, #9ad3de 10% , #89bdd3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(150deg,#9ad3de 10%, #89bdd3 ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(150deg, #9ad3de 10%, #89bdd3 ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(150deg, #9ad3de 10%, #89bdd3 ); /* Standard syntax (must be last) */;
  height: 500px;
  width: 100%;
+ animation-name: fadeLoad;
+ animation-duration: 1s;
+ animation-timing-function: ease-in;
 
- -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
- -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
- box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+ -moz-box-shadow: 1px 0px 3px rgba(0,0,0,.5);
+ -webkit-box-shadow: 1px 0px 3px rgba(0,0,0,.5);
+ box-shadow: 1px 0px 3px rgba(0,0,0,.5);
 }
 div.picture-holder{
 height: 250px;
@@ -13,12 +21,11 @@ width: 250px;
 position: absolute;
 margin: auto;
 margin-top: 10%;
-margin-left: 15%;
+margin-left: 12%;
 border-radius: 50%;
 border-style: solid;
 border-width: 3px;
-border-color: #D9D6EB;
-
+border-color: #89bdd3;
 -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -34,4 +41,47 @@ img.profile-image{
   height: 100%;
   border-radius: 50%;
   z-index: -1;
+}
+.message{
+  text-align: center;
+  width: 30%;
+
+  margin-left: 50%;
+  padding-top: 147px;
+}
+.message {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: 5px;
+	color: rgba(0,0,255,0.5);
+}
+
+.message:after {
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
+@keyframes fadeLoad {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  60% {
+    opacity: 0.4;
+    transform: translate3d(0, -40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.shadow {
+  color: white;
+
+  text-shadow: 1px 1px #fe4902,
+               2px 2px #fe4902,
+               3px 3px #fe4902;
 }

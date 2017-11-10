@@ -1,6 +1,7 @@
+
 .experince-outer-box {
   padding-left: 20px;
-
+  /* Standard syntax (must be last) */;
 }
 
 .experince-inner-box {
@@ -8,11 +9,41 @@
   margin: 20px;
   align-self: auto;
   display: inline-block;
-  border-style: solid;
-  border-width: 1px;
   padding: 10px;
   margin-top: 8px;
   padding-left: 20px;
   height: 300px;
   width: 45%;
+  background: #e3e3e3; /* For browsers that do not support gradients */
+  animation-name: fadeLoad;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+
+
+
+@keyframes fadeLoad {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  60% {
+    opacity: 0.4;
+    transform: translate3d(0, -40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.title-holder{
+  color: #ffffff;
+  font: outline;
 }

@@ -16,7 +16,7 @@ var socialLinks = [
   },
  {
   "site":"Unity",
-  "url":""
+  "url":"https://linkedin.com/in/sathvik-katam/"
  }
 ];
 
@@ -27,7 +27,7 @@ var SocialListClass = CreateClass({
     var socialListNodes = socialLinks.map(function (current_element){
       i++;
       return (
-      <a href={current_element.url} target="_blank">
+      <a href={current_element.url} target="_blank" key={i}>
         <div className = "social-inner-box" href  key={i}>
           <h4 className = "site"> {current_element.site} </h4>
           <img className="logo" src={require('./assets/'+i+'.png')}/>

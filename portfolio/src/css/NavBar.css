@@ -1,7 +1,7 @@
 .main-nav li{
   display:inline-block;
-  color: #E0DBDB;
-  font-smooth: always;
+
+
   padding-left: 30px;
   padding-top: 4px;
   height: 30px;
@@ -10,17 +10,22 @@ ul{
   margin-top: -4px;
 }
 .navbar{
-  background-color: #3B362A;
+  background-color: #e3e3e3 ;
+
   height: 50px;
-  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.7);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.7);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.7);
 }
 .navbar-container{
-  background-color: rgba(44, 41, 92, 0.61);
+  opacity: 0.8;
+  background: #e3e3e3; /* For browsers that do not support gradients */
 }
 a {
   color: inherit;
+  color: #000000 ;
+  font-size: 16px;
+  font-style: bold;
 }
 a:hover {
   color: inherit;
