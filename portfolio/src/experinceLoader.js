@@ -28,7 +28,7 @@ var experince_list =[
   "tags":['Java','Python','JavaScript'],
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
 }
-]
+];
 
 var ExperinceListClass = CreateClass({
   render: function() {

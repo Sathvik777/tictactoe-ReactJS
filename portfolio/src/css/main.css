@@ -2,7 +2,6 @@
     font-family: 'Alegreya Sans SC';font-size: 22px;
 }
 
-
 body{
   margin : auto;
   margin-top : 2px;
@@ -25,6 +24,14 @@ body{
 .container{
   width:100%;
 }
+
+
+div.outer-box {
+  border-style: solid;
+  border-width: 5px;
+}
+
+
 head{
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

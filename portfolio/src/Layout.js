@@ -3,8 +3,7 @@ import MainLoader from './MainLoader';
 import IntroLoader from './IntroLoader';
 import ExperinceLoader from './ExperinceLoader';
 import SocialLoader from './SocialLoader';
-import ConatctLoader from './SocialLoader';
-
+import ContactLoader from './ContactLoader';
 
 class Layout  extends Component {
   render() {
@@ -23,7 +22,7 @@ class Layout  extends Component {
          <SocialLoader/>
         </div>
         <div id= "contact">
-         <ConatctLoader/>
+         <ContactLoader/>
         </div>
       </div>
     );
