@@ -1,5 +1,5 @@
 div.fill-backround{
- background-color: rgba(61, 54, 192, 0.7);
+ background-color: rgba(185, 144, 82, 0.64);
  height: 500px;
  width: 100%;
 
@@ -18,8 +18,7 @@ border-radius: 50%;
 border-style: solid;
 border-width: 3px;
 border-color: #D9D6EB;
--webkit-transition: border-width 300ms linear;
-transition: border-width 300ms linear;
+
 -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -27,6 +26,8 @@ box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 
 div.picture-holder:hover{
   border-width: 1px;
+  -webkit-transition: border-width 300ms ease-in;
+  transition: border-width 300ms ease-in;
 }
 img.profile-image{
   width:100%;

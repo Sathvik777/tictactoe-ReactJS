@@ -8,7 +8,7 @@ import ContactLoader from './ContactLoader';
 class Layout  extends Component {
   render() {
     return (
-      <div className="container" >
+      <div className="layout">
         <div id="main-display">
          <MainLoader/>
         </div>

@@ -1,6 +1,6 @@
 .main-nav li{
   display:inline-block;
-  color: #DBE0DD;
+  color: #E0DBDB;
   font-smooth: always;
   padding-left: 30px;
   padding-top: 4px;
@@ -10,7 +10,7 @@ ul{
   margin-top: -4px;
 }
 .navbar{
-  background-color: #2D295C;
+  background-color: #3B362A;
   height: 50px;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
