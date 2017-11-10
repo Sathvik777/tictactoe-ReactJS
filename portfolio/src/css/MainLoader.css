@@ -12,6 +12,8 @@ height: 250px;
 width: 250px;
 position: absolute;
 margin: auto;
+margin-top: 10%;
+margin-left: 15%;
 border-radius: 50%;
 z-index: -1;
 border-style: solid;

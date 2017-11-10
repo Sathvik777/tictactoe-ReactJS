@@ -12,8 +12,8 @@ body{
 }
 
 .overlay{
-  opacity:0.8;
-  background-color:#DBDBB7;
+  opacity:1;
+  background-color:#FDC673;
   position:fixed;
   width:100%;
   height:100%;
