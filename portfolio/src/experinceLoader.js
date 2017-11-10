@@ -25,12 +25,14 @@ var experince_list =[
 
 var ExperinceListClass = CreateClass({
   render: function() {
+    var i =0;
     var experincetNodes = experince_list.map(function (current_element){
+      i++;
       return (
-      <div className = "experince-inner-box">
-      <h4 className = "title-holder"> {current_element.title} </h4>
-      <p className = "period"> {current_element.period} </p>
-      <p className = "description"> {current_element.description} </p>
+      <div className = "experince-inner-box" key={i}>
+        <h4 className = "title-holder"> {current_element.title} </h4>
+        <p className = "period"> {current_element.period} </p>
+        <p className = "description"> {current_element.description} </p>
       </div>
       );
     });
@@ -45,22 +47,8 @@ var ExperinceListClass = CreateClass({
 class ExperinceLoader extends  React.Component {
 
 render() {
-  //const { experince_list } = this.props;
-  console.log("called this mmethod");
-  const experince_list_draw = experince_list.map( current_element => {
-    <div className = "experince-outer-box">
-      <div className = "experince-inner-box">
-      <h4 className = "title-holder"> {current_element.title} </h4>
-      <p className = "period"> {current_element.period} </p>
-      <p className = "description"> {current_element.description} </p>
-      </div>
-    </div>
-  })
-  console.log(experince_list_draw);
   return (
-    <div className ="experince-loader">
-      {<ExperinceListClass />}
-    </div>
+      <ExperinceListClass />
   )
   }
 }
