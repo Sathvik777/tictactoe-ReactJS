@@ -1,6 +1,32 @@
 .intro-outer-box{
-  opacity: 0.9;
-
- height: 300px;
- width: 100%;
+  display: flex;
+  padding-top: 20px;
+  align-content: center;
+  height: 370px;
+  background: #ebeaea23 ;
+  background: -webkit-linear-gradient(180deg, #e3e3e346 60% , #FFFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(180deg,#e3e3e346 60%, #FFFF ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(180deg, #e3e3e346 60%, #FFFF ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(180deg, #e3e3e346 60%, #FFFF ); /* Standard syntax (must be last) */;
+  width: 100%;
+}
+div.story{
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+  height: 90%;
+  
+}
+div.skills{
+  width: 50%;
+  margin: 10px;
+  height: 90%;
+  border-width:2px;
+  border-style: solid; 
+  
+}
+.mystory{
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 2.5px;
 }

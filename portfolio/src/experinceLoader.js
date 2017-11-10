@@ -33,11 +33,17 @@ var experince_list =[
 var ExperinceListClass = CreateClass({
   render: function() {
     var i =0;
+    var class_name;
     var experincetNodes = experince_list.map(function (current_element){
       i++;
+      if(i%2 == 0){
+        class_name = 'experince-inner-box'+' even-box' ;
+      } else {
+        class_name = 'experince-inner-box'+' odd-box';
+      }
       return (
-      <div className = "experince-inner-box" key={i}>
-        <h4 className = "title-holder"> {current_element.title} </h4>
+      <div className = {class_name} key={i}>
+        <h4 className = "title-holder shadow"> {current_element.title} </h4>
         <p className = "period"> {current_element.period} </p>
         <p className = "description"> {current_element.description} </p>
       </div>

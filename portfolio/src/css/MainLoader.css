@@ -1,11 +1,15 @@
+@font-face {
+  font-family: 'Borg';
+  src: url('./fonts/Borg.ttf')  format('truetype') /* Safari, Android, iOS */
+}
 div.fill-backround{
   opacity: 0.9;
   background: #9ad3de; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(150deg, #9ad3de 10% , #89bdd3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(150deg,#9ad3de 10%, #89bdd3 ); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(150deg, #9ad3de 10%, #89bdd3 ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(150deg, #9ad3de 10%, #89bdd3 ); /* Standard syntax (must be last) */;
- height: 500px;
+  background: -webkit-linear-gradient(170deg, #9ad3de 60% , #89bdd3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(170deg,#9ad3de 60%, #89bdd3 ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(170deg, #9ad3de 60%, #89bdd3 ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(170deg, #9ad3de 60%, #89bdd3 ); /* Standard syntax (must be last) */;
+ height: 420px;
  width: 100%;
  animation-name: fadeLoad;
  animation-duration: 1s;
@@ -24,8 +28,8 @@ margin-top: 10%;
 margin-left: 12%;
 border-radius: 50%;
 border-style: solid;
-border-width: 3px;
-border-color: #89bdd3;
+border-width: 2px;
+border-color: #FF6600;
 -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -42,25 +46,58 @@ img.profile-image{
   border-radius: 50%;
   z-index: -1;
 }
-.message{
+hr { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+} 
+div.message{
   text-align: center;
-  width: 30%;
-
-  margin-left: 50%;
-  padding-top: 147px;
+  margin-left: 30%;
+  padding-top: 100px;
 }
-.message {
+div.divider{
+  text-align: center;
+  margin-left: 30%;
+}
+.head-divider {
+  
+  position: relative;
+  font-family: 'Borg', Fallback, sans-serif;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+div.divider-bars{
+  margin-left: 30%;
+}
+
+.head-message {
 	display: inline;
-	position: relative;
-	font: 200px Helvetica, Sans-Serif;
+  position: relative;
+  font-family: 'Borg', Fallback, sans-serif;
+	font-size: 70px;
 	letter-spacing: 5px;
 	color: rgba(0,0,255,0.5);
 }
 
-.message:after {
-	position: absolute; left: 10px; top: 5px;
+.head-message:after {
+	position: absolute; left: 7px; top: 5px;
 	color: rgba(255,0,0,0.5);
 }
+
+div.divider-bars{
+  height: 20px;
+  width: 100px;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5%;
+  border-color: #FF6600;
+}
+
+
 
 @keyframes fadeLoad {
   from {

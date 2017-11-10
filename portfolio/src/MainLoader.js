@@ -11,6 +11,13 @@ class MainLoader  extends Component {
         <div className ="message">
           <h4 className="head-message shadow">Hire a Hero</h4>
         </div>
+        <div className="divider">
+        <hr/>
+        <span className="head-divider shadow"> 
+           - &#9733; -
+          </span> 
+          <hr/>
+        </div>
       </div>
     );
   }
