@@ -11,14 +11,42 @@ var socialLinks = [
   "url":"https://codepen.io/sathvik"
  },
  {
-  "site":"LinkedIn",
-  "url":"https://linkedin.com/in/sathvik-katam/"
+  "site":"Glitch",
+  "url":"https://glitch.com/@Sathvik777"
   },
  {
   "site":"Unity",
   "url":"https://linkedin.com/in/sathvik-katam/"
  }
 ];
+
+var liveApps = [
+  {"name":"App1",
+  "url":"https://github.com/Sathvik777",
+ },
+ {
+  "name":"App2",
+  "url":"https://codepen.io/sathvik"
+ },
+ {
+  "name":"App3",
+  "url":"https://linkedin.com/in/sathvik-katam/"
+  },
+ {
+  "name":"App4",
+  "url":"https://linkedin.com/in/sathvik-katam/"
+ },
+ {
+  "name":"App5",
+  "url":"https://linkedin.com/in/sathvik-katam/"
+ },
+ {
+  "name":"App6",
+  "url":"https://linkedin.com/in/sathvik-katam/"
+ }
+];
+
+
 
 
 var SocialListClass = CreateClass({
@@ -28,7 +56,7 @@ var SocialListClass = CreateClass({
       i++;
       return (
       <a href={current_element.url} target="_blank" key={i}>
-        <div className = "social-inner-box" href  key={i}>
+        <div className = "social-inner-box"  key={i}>
           <h4 className = "site"> {current_element.site} </h4>
           <img className="logo" src={require('./assets/'+i+'.png')}/>
         </div>
@@ -36,11 +64,11 @@ var SocialListClass = CreateClass({
       );
     });
     return (
-      <div className = "social-outer-box">
+    <div className = "social-outer-box">
       <h4>Look! I Can Code</h4>
       <hr className="lines"/>
         {socialListNodes}
-      </div>
+    </div>
     );
   }
 });
@@ -48,21 +76,21 @@ var SocialListClass = CreateClass({
 var LiveApps = CreateClass({
   render: function() {
     var i =0;
-    var liveAppsNodes = socialLinks.map(function (current_element){
+    var liveAppsNodes = liveApps.map(function (current_element){
       i++;
       return (
-      <a href={current_element.url} target="_blank" key={i}>
-        <div className = "social-inner-box" href  key={i}>
-          <h4 className = "site"> {current_element.site} </h4>
-          <img className="logo" src={require('./assets/'+i+'.png')}/>
+        <div className = "live-inner-box">
+          <div className= "app-title">
+          <h4 className = "app-title">{current_element.name}</h4>
+          </div>
+
         </div>
-      </a>
       );
     });
     return (
-      <div className = "social-outer-box">
-      <h4>Look! My code works</h4>
-      <hr className="lines"/>
+      <div className = "live-outer-box">
+        <h4>Look! My code works</h4>
+        <hr className="lines"/>
         {liveAppsNodes}
       </div>
     );
