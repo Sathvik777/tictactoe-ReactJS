@@ -1,12 +1,15 @@
 *{
-    font-family: 'Alegreya Sans SC';font-size: 22px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
 }
-
+.container{
+  padding: 0px;
+  margin: 0px;
+}
 body{
   margin : auto;
   margin-top : 2px;
   align-content: center;
-  font-family:'Times New Roman', Times, serif;
   transition: all 0.1s ease-in;
 }
 
@@ -18,11 +21,12 @@ body{
   height:100%;
   top:0px;
   left:0px;
-  z-index:1000;
+  z-index:-1;
 }
-
-.container{
-   width: 1243px;;
+#main{
+  width: 1400px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 *{
