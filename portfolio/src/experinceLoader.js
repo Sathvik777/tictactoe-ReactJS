@@ -51,6 +51,8 @@ var ExperinceListClass = CreateClass({
     });
     return (
       <div className = "experince-outer-box">
+      <h4>Experience</h4>
+      <hr className="lines"/>
         {experincetNodes}
       </div>
     );

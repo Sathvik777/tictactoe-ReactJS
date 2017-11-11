@@ -4,7 +4,7 @@ import IntroLoader from './IntroLoader';
 import ExperinceLoader from './ExperinceLoader';
 import SocialLoader from './SocialLoader';
 import ContactLoader from './ContactLoader';
-
+import './css/Layout.css';
 class Layout  extends Component {
   render() {
     return (
@@ -12,13 +12,13 @@ class Layout  extends Component {
         <div id="main-display">
          <MainLoader/>
         </div>
-        <div id="intro">
+        <div id="holders">
          <IntroLoader/>
         </div>
-        <div id="experince">
+        <div id="holders">
          <ExperinceLoader/>
         </div>
-        <div id="social">
+        <div id="holders">
          <SocialLoader/>
         </div>
         <div id= "contact">

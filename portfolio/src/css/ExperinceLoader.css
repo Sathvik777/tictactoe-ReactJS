@@ -1,7 +1,9 @@
 
 .experince-outer-box {
   padding-left: 20px;
-  /* Standard syntax (must be last) */;
+  animation-name: fadeLoad;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 .experince-inner-box {
@@ -14,10 +16,7 @@
   padding-left: 20px;
   height: 300px;
   width: 47%;
-  animation-name: fadeLoad;
   color: #00151d;
-  animation-duration: 1s;
-  animation-timing-function: linear;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -43,4 +42,12 @@
 }
 .title-holder{
   padding-top: 7px;
+}
+hr.lines{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+
 }
