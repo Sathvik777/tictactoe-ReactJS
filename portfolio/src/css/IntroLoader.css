@@ -12,15 +12,13 @@ div.story{
   width: 50%;
   height: 100%;
 
-  background: #ebeaea23 ;
+  background-color: #ebeaea23 ;
   
 }
 div.skills{
   width: 50%;
   margin: 10px;
   height: 90%;
-  border-width:2px;
-  border-style: solid; 
   
 }
 .mystory{
