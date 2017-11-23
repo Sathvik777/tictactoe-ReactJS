@@ -5,6 +5,7 @@ class MainLoader  extends Component {
   render() {
     return (
       <div className="fill-backround">
+        <div className="hero-main">
         <div className ="picture-holder">
           <img className="profile-image" src={require('./assets/sathvik.jpg')} />
         </div>
@@ -13,11 +14,12 @@ class MainLoader  extends Component {
         </div>
         <div className="divider">
         <hr/>
-        <span className="head-divider shadow"> 
+        <span className="head-divider shadow">
            - &#9733; -
-          </span> 
+          </span>
           <hr/>
         </div>
+      </div>
       </div>
     );
   }
