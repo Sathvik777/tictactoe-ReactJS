@@ -49,9 +49,9 @@ var ExperinceListClass = CreateClass({
     var experincetNodes = experince_list.map(function (current_element){
       i++;
       if(i%2 == 0){
-        class_name = 'experince-inner-box'+' even-box' ;
+        class_name = 'experince-inner-box even-box' ;
       } else {
-        class_name = 'experince-inner-box'+' odd-box';
+        class_name = 'experince-inner-box odd-box';
       }
       return (
       <div className = {class_name} key={i}>

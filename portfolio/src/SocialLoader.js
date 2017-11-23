@@ -58,7 +58,7 @@ var SocialListClass = CreateClass({
       <a href={current_element.url} target="_blank" key={i}>
         <div className = "social-inner-box"  key={i}>
           <h4 className = "site"> {current_element.site} </h4>
-          <img className="logo" src={require('./assets/'+i+'.png')}/>
+          <img className="logo" alt="Hero" src={require('./assets/'+i+'.png')}/>
         </div>
       </a>
       );
@@ -75,9 +75,8 @@ var SocialListClass = CreateClass({
 
 var LiveApps = CreateClass({
   render: function() {
-    var i =0;
+
     var liveAppsNodes = liveApps.map(function (current_element){
-      i++;
       return (
         <div className = "live-inner-box">
           <div className= "app-title">
