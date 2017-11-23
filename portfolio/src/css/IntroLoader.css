@@ -13,21 +13,24 @@ div.story{
   height: 100%;
 
   background-color: #ebeaea23 ;
-  
+
 }
 div.skills{
   width: 50%;
   margin: 10px;
   height: 90%;
-  
+
 }
 .mystory{
   margin-top: 24px;
-  font-size: 24px;
+  font-size: 6vw;
   color: #000000;
   letter-spacing: 2.5px;
 }
 
 p.story {
   padding: 10px;
+  font-size: 1.5vw;
+  font-weight: 550;
+
 }
