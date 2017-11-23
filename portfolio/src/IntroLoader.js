@@ -21,7 +21,14 @@ var MyStoryClass = CreateClass({
 });
 
 
+var ContactInfo = CreateClass({
+  render: function(){
+    return(
+    <p>Test tester</p>
+    );
+  }
 
+})
 
 
 
@@ -30,8 +37,9 @@ render() {
   return (
   <div className="intro-outer-box">
   <MyStoryClass/>
+  <ContactInfo/>
   <div className="skills">
-   </div> 
+   </div>
   </div>
    )
   }
