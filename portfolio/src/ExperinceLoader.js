@@ -14,7 +14,8 @@ var experince_list =[
   "title": "Backend Developer",
   "period":"10-20-2220 - 10-20-2010",
   "tags":['Java','Python','JavaScript'],
-  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem "+
+  "ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
 },
   {
   "title": "Web Developer",
@@ -26,19 +27,22 @@ var experince_list =[
   "title": "Researcher",
   "period":"10-20-2220 - 10-20-2010",
   "tags":['Java','Python','JavaScript'],
-  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
+  "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem "+
+  "ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
 },
 {
   "title": "Masters - Telecommunications",
   "period":"10-20-2220 - 10-20-2010",
   "tags":['Java','Python','JavaScript'],
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem "+
+  "ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
 },
 {
   "title": "Bahelors - Electronics and Communications",
   "period":"10-20-2220 - 10-20-2010",
   "tags":['Java','Python','JavaScript'],
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem "+
+  "ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida massa odio, nec auctor risus posuere in."
 }
 ];
 
