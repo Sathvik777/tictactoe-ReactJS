@@ -27,7 +27,6 @@ var MyStoryClass = CreateClass({
 class CodingInfo extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = { x: 0, y: 0 };
   }
 
@@ -40,8 +39,8 @@ class CodingInfo extends React.Component {
 
   render() {
     const { x, y } = this.state;
-    return <div className="coding-stats">
-      <h4 className="mystory">Mouse coordinates: { x } { y }</h4>
+    return <div className="coding-stats" onMouseMove={this._onMouseMove.bind(this)}>
+      <h4 className="mystory" >Mouse coordinates: { x } { y }</h4>
       <p className="story">{story}</p>
     </div>;
   }
