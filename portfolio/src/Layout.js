@@ -15,7 +15,7 @@ class Layout  extends Component {
         <div id="holders">
          <IntroLoader/>
         </div>
-        <div id="holders">
+        <div id="holders backgound-white">
          <ExperinceLoader/>
         </div>
         <div id="holders">

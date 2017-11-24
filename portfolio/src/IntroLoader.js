@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/IntroLoader.css';
+import ReactDOM from 'react-dom';
 import CreateClass from 'create-react-class';
 var story = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."+
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit . Aenean gravida"+
@@ -23,14 +24,29 @@ var MyStoryClass = CreateClass({
 });
 
 
-var ContactInfo = CreateClass({
-  render: function(){
-    return(
-    <p>Test tester</p>
-    );
+class CodingInfo extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { x: 0, y: 0 };
   }
 
-})
+  _onMouseMove(e) {
+    const position = ReactDOM.findDOMNode(this).getBoundingClientRect();
+    console.log(position, e.nativeEvent.offsetX, e.screenX);
+
+    this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });
+  }
+
+  render() {
+    const { x, y } = this.state;
+    return <div className="coding-stats">
+      <h4 className="mystory">Mouse coordinates: { x } { y }</h4>
+      <p className="story">{story}</p>
+    </div>;
+  }
+}
+
 
 
 
@@ -39,9 +55,7 @@ render() {
   return (
   <div className="intro-outer-box">
   <MyStoryClass/>
-  <ContactInfo/>
-  <div className="skills">
-   </div>
+  <CodingInfo/>
   </div>
    )
   }

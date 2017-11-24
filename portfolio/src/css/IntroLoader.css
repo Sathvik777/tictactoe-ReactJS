@@ -2,6 +2,7 @@
   display: flex;
   align-content: center;
   height: 370px;
+  padding-top: 50px;
   animation-name: fadeLoad;
   animation-duration: 1s;
   animation-timing-function: linear;
@@ -9,11 +10,13 @@
 }
 div.story{
   text-align: center;
-  width: 50%;
+  width: 47%;
   height: 100%;
-
-  background-color: #ebeaea23 ;
-
+  padding-top: 20px;
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0.82) ;
+  color: white;
+  padding-bottom: 50px;
 }
 div.skills{
   width: 50%;
@@ -23,14 +26,29 @@ div.skills{
 }
 .mystory{
   margin-top: 24px;
-  font-size: 6vw;
+  font-size: 2vmax;
   color: #000000;
   letter-spacing: 2.5px;
 }
 
 p.story {
-  padding: 10px;
-  font-size: 1.5vw;
+  padding: 20px;
+  font-size: 1.15vmax;
   font-weight: 550;
+
+}
+
+@media screen and (min-width: 1200px) {
+  p.story {
+     font-size: 36px;
+  }
+}
+
+.coding-stats{
+ text-align: center;
+padding-left: 40px;
+width: 47%;
+color: rgba(0, 0, 0, 0.82);
+
 
 }

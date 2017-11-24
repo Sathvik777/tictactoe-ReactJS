@@ -9,8 +9,8 @@ ul{
   margin-top: -4px;
 }
 .navbar{
-  background-color: #ffffff ;
-  width: 1400px;
+  background-color: black;
+  color: white;
   height: 50px;
 }
 .navbar-container{
@@ -19,7 +19,7 @@ ul{
 }
 a {
   color: inherit;
-  color: #000000 ;
+  color: white ;
   font-size: 16px;
   font-style: bold;
 }
